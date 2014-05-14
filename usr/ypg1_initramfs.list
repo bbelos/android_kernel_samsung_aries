@@ -52,6 +52,6 @@ file /stage1/bml_over_mtd ../../utilities/bml_over_mtd 755 0 0
 file /stage1/kexec source/usr/ypg1_initramfs_files/kexec 755 0 0
 file /stage1/init source/usr/ypg1_initramfs_files/init 755 0 0
 file /stage1/erase_image ../../utilities/erase_image 755 0 0
-file /stage1/ramdisk.img ../../ramdisk.img 700 0 0
-file /stage1/ramdisk-recovery.img ../../ramdisk-recovery.img 700 0 0
+file /stage1/ramdisk.cpio ../../ramdisk.cpio 700 0 0
+file /stage1/ramdisk-recovery.cpio ../../ramdisk-recovery.cpio 700 0 0
 dir /sys 755 0 0
